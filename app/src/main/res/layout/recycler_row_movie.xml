@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/recyclerViewImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/recyclerViewTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        android:textColor="@color/purple_700"
+        >
+
+    </TextView>
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:progressTint="#FFEB3B"
+        android:isIndicator="true"
+        android:stepSize="0.5"
+        android:layout_margin="10dp"
+        android:numStars="10"
+        android:scaleX=".6"
+        android:scaleY=".6"
+        android:layout_gravity="center"
+
+
+
+
+
+        />
+
+</LinearLayout>
